@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "82ac06d10cc31bf790695ddd407ff539",
+    "hash": "c216a0533aac693b978677aa140acd04",
     "packages": [
         {
             "name": "hybridauth/hybridauth",
@@ -56,16 +56,16 @@
         },
         {
             "name": "socalnick/scn-social-auth",
-            "version": "1.14.0",
+            "version": "1.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SocalNick/ScnSocialAuth.git",
-                "reference": "b38f2aa71fade44736755aeb1b5128305f4cdf1a"
+                "reference": "cbb85fe49355eb76148e1b62b3cc41fd6b7d98ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/b38f2aa71fade44736755aeb1b5128305f4cdf1a",
-                "reference": "b38f2aa71fade44736755aeb1b5128305f4cdf1a",
+                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/cbb85fe49355eb76148e1b62b3cc41fd6b7d98ea",
+                "reference": "cbb85fe49355eb76148e1b62b3cc41fd6b7d98ea",
                 "shasum": ""
             },
             "require": {
@@ -105,7 +105,7 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2014-05-25 15:39:19"
+            "time": "2014-06-06 01:43:05"
         },
         {
             "name": "zendframework/zendframework",
@@ -412,7 +412,7 @@
 
     ],
     "platform": {
-        "php": ">=5.3.3"
+        "php": ">=5.5.0"
     },
     "platform-dev": [
 
