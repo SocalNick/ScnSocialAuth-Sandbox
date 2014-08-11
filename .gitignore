@@ -10,3 +10,5 @@ vendor/
 data
 config/autoload/local.php
 config/autoload/*.local.php
+.env
+Procfile.local
