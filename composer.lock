@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2ec4964d7494d8e19f868766af6aac54",
+    "hash": "a91ba15e8226a69a804052d1763410fd",
     "packages": [
         {
             "name": "hybridauth/hybridauth",
@@ -56,16 +56,16 @@
         },
         {
             "name": "socalnick/scn-social-auth",
-            "version": "1.14.1",
+            "version": "1.15.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SocalNick/ScnSocialAuth.git",
-                "reference": "cbb85fe49355eb76148e1b62b3cc41fd6b7d98ea"
+                "reference": "5d9394bb10771c89feb88868ff9142b5d93b7f7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/cbb85fe49355eb76148e1b62b3cc41fd6b7d98ea",
-                "reference": "cbb85fe49355eb76148e1b62b3cc41fd6b7d98ea",
+                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/5d9394bb10771c89feb88868ff9142b5d93b7f7c",
+                "reference": "5d9394bb10771c89feb88868ff9142b5d93b7f7c",
                 "shasum": ""
             },
             "require": {
@@ -73,7 +73,7 @@
                 "php": ">=5.3.3",
                 "zendframework/zendframework": "2.*",
                 "zf-commons/zfc-base": "0.1.*",
-                "zf-commons/zfc-user": "1.0.*"
+                "zf-commons/zfc-user": "1.2.*"
             },
             "require-dev": {
                 "mockery/mockery": "0.8.0"
@@ -96,8 +96,7 @@
                 {
                     "name": "Nicholas Calugar",
                     "email": "njcalugar@gmail.com",
-                    "homepage": "http://socalnick.github.com/",
-                    "role": "Developer"
+                    "homepage": "http://socalnick.github.com/"
                 }
             ],
             "description": "Uses the HybridAuth PHP library to Enable authentication via Google, Facebook, Twitter, Yahoo!, etc for the ZfcUser ZF2 module.",
@@ -105,20 +104,20 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2014-06-06 01:43:05"
+            "time": "2014-09-06 23:06:40"
         },
         {
             "name": "zendframework/zendframework",
-            "version": "2.3.1",
+            "version": "2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zf2.git",
-                "reference": "055eac4314425c291f3ef0e104a6196a8fc24cd5"
+                "reference": "0b74b66dc07ff88140287bdf67d230c1bd32ee0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zf2/zipball/055eac4314425c291f3ef0e104a6196a8fc24cd5",
-                "reference": "055eac4314425c291f3ef0e104a6196a8fc24cd5",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/0b74b66dc07ff88140287bdf67d230c1bd32ee0c",
+                "reference": "0b74b66dc07ff88140287bdf67d230c1bd32ee0c",
                 "shasum": ""
             },
             "require": {
@@ -180,7 +179,7 @@
             },
             "require-dev": {
                 "doctrine/annotations": ">=1.0",
-                "fabpot/php-cs-fixer": "*@dev",
+                "fabpot/php-cs-fixer": "dev-master",
                 "ircmaxell/random-lib": "dev-master",
                 "ircmaxell/security-lib": "dev-master",
                 "mikey179/vfsstream": "1.2.*",
@@ -223,7 +222,7 @@
                 "framework",
                 "zf2"
             ],
-            "time": "2014-04-15 14:47:18"
+            "time": "2014-08-12 16:48:34"
         },
         {
             "name": "zendframework/zendxml",
@@ -325,16 +324,16 @@
         },
         {
             "name": "zf-commons/zfc-user",
-            "version": "1.0.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ZF-Commons/ZfcUser.git",
-                "reference": "db5b39df5f640c86299c74f46a91869c09c9a3ed"
+                "reference": "7b499ce2174fcf57ca97ccd2211fdfce5190be24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ZF-Commons/ZfcUser/zipball/db5b39df5f640c86299c74f46a91869c09c9a3ed",
-                "reference": "db5b39df5f640c86299c74f46a91869c09c9a3ed",
+                "url": "https://api.github.com/repos/ZF-Commons/ZfcUser/zipball/7b499ce2174fcf57ca97ccd2211fdfce5190be24",
+                "reference": "7b499ce2174fcf57ca97ccd2211fdfce5190be24",
                 "shasum": ""
             },
             "require": {
@@ -398,13 +397,15 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2014-04-17 10:31:44"
+            "time": "2014-07-14 10:03:22"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "socalnick/scn-social-auth": 5
+    },
     "platform": {
         "php": ">=5.5.12"
     },
