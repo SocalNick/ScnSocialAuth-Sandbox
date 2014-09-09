@@ -25,6 +25,8 @@ return array(
     'scn-social-auth' => array(
         'facebook_client_id' => $_ENV['facebook_client_id'],
         'facebook_secret' => $_ENV['facebook_secret'],
+        'google_client_id' => $_ENV['google_client_id'],
+        'google_secret' => $_ENV['google_secret'],
         'twitter_consumer_key' => $_ENV['twitter_consumer_key'],
         'twitter_consumer_secret' => $_ENV['twitter_consumer_secret'],
     ),
