@@ -56,16 +56,16 @@
         },
         {
             "name": "socalnick/scn-social-auth",
-            "version": "1.15.0-rc.1",
+            "version": "1.15.0-rc.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SocalNick/ScnSocialAuth.git",
-                "reference": "5d9394bb10771c89feb88868ff9142b5d93b7f7c"
+                "reference": "51d91d8a4ffa2216d70127b94fbfc8dd8ba0aed5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/5d9394bb10771c89feb88868ff9142b5d93b7f7c",
-                "reference": "5d9394bb10771c89feb88868ff9142b5d93b7f7c",
+                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/51d91d8a4ffa2216d70127b94fbfc8dd8ba0aed5",
+                "reference": "51d91d8a4ffa2216d70127b94fbfc8dd8ba0aed5",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2014-09-06 23:06:40"
+            "time": "2014-09-08 02:38:07"
         },
         {
             "name": "zendframework/zendframework",
