@@ -10,6 +10,6 @@
     "require": {
         "php": ">=5.5.12",
         "zendframework/zendframework": "2.3.*",
-        "socalnick/scn-social-auth": "1.15.*@rc"
+        "socalnick/scn-social-auth": "1.15.*"
     }
 }
