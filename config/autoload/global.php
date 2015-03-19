@@ -11,17 +11,30 @@
  * file.
  */
 
-$vcapServices = \Zend\Json\Json::decode($_ENV['VCAP_SERVICES'], \Zend\Json\Json::TYPE_ARRAY);
-$clearDbCreds = $vcapServices['cleardb'][0]['credentials'];
-
-return array(
-    'db' => array(
+$db = [];
+if (getenv('VCAP_SERVICES')) {
+    $vcapServices = \Zend\Json\Json::decode($_ENV['VCAP_SERVICES'], \Zend\Json\Json::TYPE_ARRAY);
+    $clearDbCreds = $vcapServices['cleardb'][0]['credentials'];
+    $dbConfig = [
         'driver'    => 'PdoMysql',
         'hostname'  => $clearDbCreds['hostname'],
         'database'  => $clearDbCreds['name'],
         'username'  => $clearDbCreds['username'],
         'password'  => $clearDbCreds['password'],
-    ),
+    ];
+} elseif (getenv('CLEARDB_DATABASE_URL')) {
+    $databaseUrlParts = parse_url($_ENV['CLEARDB_DATABASE_URL']);
+    $dbConfig = [
+        'driver'    => 'PdoMysql',
+        'hostname'  => $databaseUrlParts['host'],
+        'database'  => substr($databaseUrlParts['path'], 1),
+        'username'  => $databaseUrlParts['user'],
+        'password'  => $databaseUrlParts['pass'],
+    ];
+}
+
+return array(
+    'db' => $dbConfig,
     'scn-social-auth' => array(
         'facebook_client_id' => $_ENV['facebook_client_id'],
         'facebook_secret' => $_ENV['facebook_secret'],
