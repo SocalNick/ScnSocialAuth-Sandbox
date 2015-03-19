@@ -8,8 +8,8 @@
     ],
     "homepage": "http://framework.zend.com/",
     "require": {
-        "php": ">=5.5.12",
-        "zendframework/zendframework": "2.3.*",
-        "socalnick/scn-social-auth": ">=1.15.2"
+        "php": "~5.5.22",
+        "zendframework/zendframework": "~2.3.0",
+        "socalnick/scn-social-auth": "~1.16.0"
     }
 }

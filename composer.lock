@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fdfbd2559173440782c4d3c5e3e50ee8",
+    "hash": "05b5a6e12b8c69b7d7729f4ee180e56e",
     "packages": [
         {
             "name": "hybridauth/hybridauth",
@@ -57,16 +57,16 @@
         },
         {
             "name": "socalnick/scn-social-auth",
-            "version": "1.15.2",
+            "version": "1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SocalNick/ScnSocialAuth.git",
-                "reference": "c98345b8762db42717d83403646389e197eea1d0"
+                "reference": "c1288c7cea39d4e1bd8dcfc460a9d0325fc03175"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/c98345b8762db42717d83403646389e197eea1d0",
-                "reference": "c98345b8762db42717d83403646389e197eea1d0",
+                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/c1288c7cea39d4e1bd8dcfc460a9d0325fc03175",
+                "reference": "c1288c7cea39d4e1bd8dcfc460a9d0325fc03175",
                 "shasum": ""
             },
             "require": {
@@ -105,20 +105,20 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2015-01-16 07:24:32"
+            "time": "2015-03-10 06:47:07"
         },
         {
             "name": "zendframework/zendframework",
-            "version": "2.3.4",
+            "version": "2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zf2.git",
-                "reference": "c878e047ab1c5dcfb201974bdff607be54ccb54b"
+                "reference": "a1aae5fdd27a422beb32c56ddf5a197654a0f94a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zf2/zipball/c878e047ab1c5dcfb201974bdff607be54ccb54b",
-                "reference": "c878e047ab1c5dcfb201974bdff607be54ccb54b",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/a1aae5fdd27a422beb32c56ddf5a197654a0f94a",
+                "reference": "a1aae5fdd27a422beb32c56ddf5a197654a0f94a",
                 "shasum": ""
             },
             "require": {
@@ -223,7 +223,7 @@
                 "framework",
                 "zf2"
             ],
-            "time": "2015-01-14 16:44:17"
+            "time": "2015-03-12 16:55:53"
         },
         {
             "name": "zendframework/zendxml",
@@ -408,7 +408,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.12"
+        "php": "~5.5.22"
     },
     "platform-dev": []
 }
