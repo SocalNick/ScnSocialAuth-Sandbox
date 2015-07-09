@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05b5a6e12b8c69b7d7729f4ee180e56e",
+    "hash": "9cbf0aa97518935667177741706540c9",
     "packages": [
         {
             "name": "hybridauth/hybridauth",
-            "version": "v2.2.2",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732"
+                "reference": "89e4dc3da3a55cf3ffb00a428c247ff2166dc7ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/b32c4bf14007c80118a88c5e249f4e3151585732",
-                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/89e4dc3da3a55cf3ffb00a428c247ff2166dc7ca",
+                "reference": "89e4dc3da3a55cf3ffb00a428c247ff2166dc7ca",
                 "shasum": ""
             },
             "require": {
@@ -28,7 +28,10 @@
             "autoload": {
                 "psr-0": {
                     "Hybrid": "hybridauth/"
-                }
+                },
+                "classmap": [
+                    "hybridauth/Hybrid"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -53,28 +56,28 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2014-07-11 20:25:12"
+            "time": "2015-04-12 01:39:53"
         },
         {
             "name": "socalnick/scn-social-auth",
-            "version": "1.16.0",
+            "version": "1.17.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SocalNick/ScnSocialAuth.git",
-                "reference": "c1288c7cea39d4e1bd8dcfc460a9d0325fc03175"
+                "reference": "54d0bb82d40930f18e193e35c7b4616b3379a07c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/c1288c7cea39d4e1bd8dcfc460a9d0325fc03175",
-                "reference": "c1288c7cea39d4e1bd8dcfc460a9d0325fc03175",
+                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/54d0bb82d40930f18e193e35c7b4616b3379a07c",
+                "reference": "54d0bb82d40930f18e193e35c7b4616b3379a07c",
                 "shasum": ""
             },
             "require": {
-                "hybridauth/hybridauth": "2.2.*",
+                "hybridauth/hybridauth": "2.4.*",
                 "php": ">=5.3.3",
                 "zendframework/zendframework": "2.*",
                 "zf-commons/zfc-base": "0.1.*",
-                "zf-commons/zfc-user": ">=1.2.2 <2.0.0"
+                "zf-commons/zfc-user": "1.2.*"
             },
             "require-dev": {
                 "mockery/mockery": "0.8.0"
@@ -105,7 +108,7 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2015-03-10 06:47:07"
+            "time": "2015-05-19 20:21:58"
         },
         {
             "name": "zendframework/zendframework",
