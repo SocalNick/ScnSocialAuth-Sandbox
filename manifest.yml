@@ -2,4 +2,4 @@
 buildpack: php_buildpack
 applications:
   - name: scn-social-auth-sandbox
-    command: $HOME/start.sh
+    command: $HOME/.bp/bin/start
