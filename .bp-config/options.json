@@ -1,5 +1,5 @@
 {
-    "PHP_VERSION": "{PHP_55_LATEST}",
+    "PHP_VERSION": "{PHP_56_LATEST}",
     "PHP_EXTENSIONS": [ "bz2", "zlib", "curl", "mcrypt", "pdo", "pdo_mysql" ],
     "WEB_SERVER": "nginx",
     "WEBDIR": "public"
