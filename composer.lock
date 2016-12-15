@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "794c97ebea36dbbb51d442ac8956b085",
-    "content-hash": "c7d2e494f51ca04bbd5e443eb202ce4c",
+    "hash": "6697cc9387bd7ad5def7623dda244029",
+    "content-hash": "91431c7f416ee95e7057b3f4e52acdd5",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -89,21 +89,80 @@
             "time": "2015-06-14 21:17:01"
         },
         {
-            "name": "hybridauth/hybridauth",
-            "version": "v2.6.0",
+            "name": "facebook/graph-sdk",
+            "version": "5.4.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "45e52d12dccc00d4de25dc534961ab46204a15cf"
+                "url": "https://github.com/facebook/php-graph-sdk.git",
+                "reference": "2839246e971aef150650196acbb46d47e5207370"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/45e52d12dccc00d4de25dc534961ab46204a15cf",
-                "reference": "45e52d12dccc00d4de25dc534961ab46204a15cf",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/2839246e971aef150650196acbb46d47e5207370",
+                "reference": "2839246e971aef150650196acbb46d47e5207370",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4|^7.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~5.0",
+                "mockery/mockery": "~0.8",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client",
+                "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\": "src/Facebook/"
+                },
+                "files": [
+                    "src/Facebook/polyfills.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Facebook Platform"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/php-graph-sdk/contributors"
+                }
+            ],
+            "description": "Facebook SDK for PHP",
+            "homepage": "https://github.com/facebook/php-graph-sdk",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "time": "2016-11-15 14:34:16"
+        },
+        {
+            "name": "hybridauth/hybridauth",
+            "version": "v2.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hybridauth/hybridauth.git",
+                "reference": "36d52f0f66d6f7584167a243a11b592b5a6bcead"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/36d52f0f66d6f7584167a243a11b592b5a6bcead",
+                "reference": "36d52f0f66d6f7584167a243a11b592b5a6bcead",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
+                "facebook/graph-sdk": "^5.4",
                 "php": ">=5.2.0"
             },
             "type": "library",
@@ -138,7 +197,7 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2016-01-12 12:19:25"
+            "time": "2016-12-09 16:04:35"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1258,20 +1317,20 @@
         },
         {
             "name": "socalnick/scn-social-auth",
-            "version": "1.19.0",
+            "version": "1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SocalNick/ScnSocialAuth.git",
-                "reference": "e37c510f161b5d4ddbb93a4d219f6bb2e93aea33"
+                "reference": "f96e209bb86cfdf8918df12620bfd80289ada77d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/e37c510f161b5d4ddbb93a4d219f6bb2e93aea33",
-                "reference": "e37c510f161b5d4ddbb93a4d219f6bb2e93aea33",
+                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/f96e209bb86cfdf8918df12620bfd80289ada77d",
+                "reference": "f96e209bb86cfdf8918df12620bfd80289ada77d",
                 "shasum": ""
             },
             "require": {
-                "hybridauth/hybridauth": "2.6.*",
+                "hybridauth/hybridauth": "2.8.*",
                 "php": ">=5.3.3",
                 "zendframework/zend-authentication": "2.*",
                 "zendframework/zend-db": "2.*",
@@ -1322,7 +1381,7 @@
                 "facebook",
                 "zf2"
             ],
-            "time": "2016-05-08 23:43:03"
+            "time": "2016-12-15 04:06:51"
         },
         {
             "name": "symfony/yaml",
@@ -3438,7 +3497,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "~5.6.20"
+        "php": "~7.0.0"
     },
     "platform-dev": []
 }
