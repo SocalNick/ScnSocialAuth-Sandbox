@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6697cc9387bd7ad5def7623dda244029",
-    "content-hash": "91431c7f416ee95e7057b3f4e52acdd5",
+    "hash": "91e7ab7961b9c65f2f9587cdf6ca336e",
+    "content-hash": "567507abf4d43da293124f40dc6bc9a7",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -1317,16 +1317,16 @@
         },
         {
             "name": "socalnick/scn-social-auth",
-            "version": "1.20.0",
+            "version": "1.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SocalNick/ScnSocialAuth.git",
-                "reference": "f96e209bb86cfdf8918df12620bfd80289ada77d"
+                "reference": "4f97a7930d293cb5aa592252ee72e9ccb858cf46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/f96e209bb86cfdf8918df12620bfd80289ada77d",
-                "reference": "f96e209bb86cfdf8918df12620bfd80289ada77d",
+                "url": "https://api.github.com/repos/SocalNick/ScnSocialAuth/zipball/4f97a7930d293cb5aa592252ee72e9ccb858cf46",
+                "reference": "4f97a7930d293cb5aa592252ee72e9ccb858cf46",
                 "shasum": ""
             },
             "require": {
@@ -1381,7 +1381,7 @@
                 "facebook",
                 "zf2"
             ],
-            "time": "2016-12-15 04:06:51"
+            "time": "2016-12-18 17:57:59"
         },
         {
             "name": "symfony/yaml",
