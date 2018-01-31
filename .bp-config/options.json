@@ -1,6 +1,4 @@
 {
-    "PHP_VERSION": "{PHP_70_LATEST}",
-    "PHP_EXTENSIONS": [ "bz2", "zlib", "curl", "mcrypt", "pdo", "pdo_mysql" ],
     "WEB_SERVER": "nginx",
     "WEBDIR": "public"
 }
