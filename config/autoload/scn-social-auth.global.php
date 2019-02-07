@@ -111,7 +111,7 @@ $settings = array(
      *
      * Please specify if LinkedIn is enabled
      */
-    //'linkedIn_enabled' => true,
+    'linkedIn_enabled' => true,
 
     /**
      * Twitter Enabled

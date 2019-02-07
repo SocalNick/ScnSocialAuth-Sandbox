@@ -40,6 +40,8 @@ return array(
         'facebook_secret' => $_ENV['facebook_secret'],
         'google_client_id' => $_ENV['google_client_id'],
         'google_secret' => $_ENV['google_secret'],
+        'linkedIn_client_id' => $_ENV['linkedIn_client_id'],
+        'linkedIn_secret' => $_ENV['linkedIn_secret'],
         'twitter_consumer_key' => $_ENV['twitter_consumer_key'],
         'twitter_consumer_secret' => $_ENV['twitter_consumer_secret'],
     ),
